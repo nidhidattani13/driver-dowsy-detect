@@ -16,7 +16,7 @@ import win32com.client as wincom
 account_sid = 'ACd04cf4beacade61b12e4b48dfaff5aab'
 auth_token = 'fe06381284e233101e4a8a223b77a769'
 twilio_phone_number = '+12762862519'  # Replace with your Twilio phone number
-driver_phone_number = '+917863015585'  # Replace with the driver's phone number
+driver_phone_number = ''  # Replace with the driver's phone number
 
 client = Client(account_sid, auth_token)
 
